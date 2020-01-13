@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ne5.ble_func_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:8:22-78
+15
+16    <application
+16-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:11:5-40:19
+17        android:allowBackup="true"
+17-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:16:9-35
+24        android:theme="@android:style/Theme.Wallpaper.NoTitleBar" >
+24-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:17:9-66
+25        <meta-data
+25-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:18:9-20:35
+26            android:name="android.max_aspect"
+26-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:19:13-46
+27            android:value="2.4" />
+27-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:20:13-32
+28        <!-- 适配华为（huawei）刘海屏 -->
+29        <meta-data
+29-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:22:9-24:35
+30            android:name="android.notch_support"
+30-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:23:13-49
+31            android:value="true" />
+31-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:24:13-33
+32        <!-- 适配小米（xiaomi）刘海屏 -->
+33        <meta-data
+33-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:26:9-28:50
+34            android:name="notch.config"
+34-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:27:13-40
+35            android:value="portrait|landscape" />
+35-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:28:13-47
+36
+37        <activity
+37-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:30:9-39:20
+38            android:name="com.ne5.ble_func_test.FullscreenActivity"
+38-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:31:13-47
+39            android:configChanges="orientation|keyboardHidden|screenSize"
+39-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:32:13-74
+40            android:label="@string/app_name" >
+40-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:33:13-45
+41            <intent-filter>
+41-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:34:13-38:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:35:17-69
+42-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:35:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:37:17-77
+44-->C:\zev\code\java\ble_test\app\src\main\AndroidManifest.xml:37:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[pub.devrel:easypermissions:3.0.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\39d4f36d480867cf7e21d3e551d2c6ea\easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+48            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+48-->[pub.devrel:easypermissions:3.0.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\39d4f36d480867cf7e21d3e551d2c6ea\easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+49            android:exported="false"
+49-->[pub.devrel:easypermissions:3.0.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\39d4f36d480867cf7e21d3e551d2c6ea\easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+50            android:label=""
+50-->[pub.devrel:easypermissions:3.0.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\39d4f36d480867cf7e21d3e551d2c6ea\easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+51            android:theme="@style/EasyPermissions.Transparent" />
+51-->[pub.devrel:easypermissions:3.0.0] C:\Users\13095\.gradle\caches\transforms-2\files-2.1\39d4f36d480867cf7e21d3e551d2c6ea\easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+52    </application>
+53
+54</manifest>
