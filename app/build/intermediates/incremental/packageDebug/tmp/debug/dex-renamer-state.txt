@@ -1,7 +1,7 @@
-#Tue Jan 14 02:31:40 CST 2020
-base.1=C\:\\zev\\code\\java\\ble_test\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+#Tue Jan 14 11:57:02 CST 2020
+base.0=C\:\\MyMarks\\FLUTTER\\ble_func_test\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
-base.0=C\:\\zev\\code\\java\\ble_test\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 renamed.1=classes2.dex
-renamed.0=classes.dex
 path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\MyMarks\\FLUTTER\\ble_func_test\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

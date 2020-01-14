@@ -1459,8 +1459,11 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string rationale_ask
+string rationale_ask_again
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_settings_dialog
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1660,6 +1663,8 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style EasyPermissions
+style EasyPermissions_Transparent
 style FullscreenActionBarStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
